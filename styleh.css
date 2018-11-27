@@ -1,0 +1,113 @@
+html{
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+.bg{
+	background-image: url("keluargaku.png");
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	float: left;
+	left: 0;
+}
+
+#heading{
+    float: left;
+
+}
+#menu ul {
+    list-style: none;
+
+}
+#heading a {
+    line-height: 25px;
+    text-decoration: none;
+    padding-left: 60px;
+    background: white;
+    /*color:#FFF;*/
+    font-family: aardvark cafe;
+    font-size: 40px;
+}
+#menu ul li {
+    float: left;
+    line-height: 65px
+}
+#menu ul li a {
+    float:left; 
+    width:175px; 
+    display:block;  
+    color: black; 
+    text-decoration:none; 
+}
+#menu ul ul {
+    display:none; 
+    list-style:none; 
+    position:absolute;
+    background:white; 
+    /*background-color:#26C4C2;*/
+    float: none;
+    top:65px; 
+    width:190px;
+}
+#menu ul li a:hover {
+	background:white;
+    /*background-color:#2E9EA2; */
+    display:block;
+}
+#menu ul li:hover ul {
+    display:block;
+}
+#menu ul ul li a {
+    display:block;
+    padding-left:30px; 
+    text-align:left; 
+    width:160px;
+    height: 60px;
+    line-height: 60px;
+}
+#menu ul ul li a:hover {
+    color:#fff;
+ }
+
+.btnsatu {
+margin-top: 80%;
+ 
+}
+.conten{
+width: 20%;
+padding-left: 25px;
+padding-right: 25px;
+margin-right: auto;
+margin-left: auto;
+margin-top: 80px;
+
+}
+h1,p{
+	margin:10px 0 10px 0;
+}
+a{
+	color:#6388b9;
+	text-decoration:none;
+}
+
+.footer{
+    padding: 10px 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    font-size: 12px;
+}
+    .footer p{
+        text-align: center;
+    font-style: 'Open Sans';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    color: #E1DADA;
+    letter-spacing: 3px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+    padding: 30px;
+    }
